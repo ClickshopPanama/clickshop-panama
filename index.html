@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickshop Panamá - Courier Internacional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Clickshop Panamá</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#casillero">Crear Casillero</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Tu aliado en envíos rápidos y seguros desde EE.UU. a Panamá.</p>
+        <img src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Imagen de envíos">
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa familiar fundada en el 2018, nos caracterizamos por ser responsables, honestos y seguros.</p>
+        <h3>Nuestra Misión</h3>
+        <p>Brindar un servicio personalizado, eficaz, rápido y seguro con tarifas competitivas y cómodas para todos nuestros clientes.</p>
+        <h3>Nuestra Visión</h3>
+        <p>Posicionarnos como una de las mejores empresas de fletes aéreos del país, con una excelente orientación a nuestros clientes, basada en la formación, motivación y compromiso.</p>
+        <img src="https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nuestra historia">
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos:</p>
+        <ul>
+            <li>Recepción de paquetes en EE.UU.</li>
+            <li>Envío aéreo rápido y seguro.</li>
+            <li>Entrega en Panamá con seguimiento en tiempo real.</li>
+            <li>Si no tienes tarjeta, hacemos las compras por ti.</li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nuestros servicios">
+    </section>
+
+    <section id="casillero">
+        <h2>¡Crea tu Casillero Internacional GRATIS!</h2>
+        <form id="formCasillero">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="direccion">Dirección en EE.UU.:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+            <button type="submit">Crear Casillero</button>
+        </form>
+    </section>
+
+    <section id="precios">
+        <h2>Precios</h2>
+        <p>Precio por libra: <strong>$2.75</strong>. No cobramos peso volumétrico.</p>
+    </section>
+
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <p>Visítanos en nuestras oficinas:</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.847231469033!2d-79.5194856852271!3d8.983693893541047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8e6c1e7e7b5%3A0x4c5f5a5b5b5b5b5b!2sClickshop%20Panam%C3%A1!5e0!3m2!1ses!2spa!4v1629999999999!5m2!1ses!2spa" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.847231469033!2d-79.5194856852271!3d8.983693893541047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8e6c1e7e7b5%3A0x4c5f5a5b5b5b5b5b!2sClickshop%20Panam%C3%A1!5e0!3m2!1ses!2spa!4v1629999999999!5m2!1ses!2spa" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Preguntas? Contáctanos:</p>
+        <form action="mailto:info@clickshoppanama.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>O escríbenos directamente a nuestros WhatsApp:</p>
+        <ul>
+            <li><a href="https://wa.me/50762441308" target="_blank">+507 6244-1308</a> (Seguimiento de Paquetería)</li>
+            <li><a href="https://wa.me/50763670638" target="_blank">+507 6367-0638</a> (Cotizaciones y Apertura de Casillero)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Clickshop Panamá. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/clickshoppanama" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/clickshop_panama" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
