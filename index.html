@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickshop Panamá</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Clickshop Panamá</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#casillero">Crear Casillero</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Tu aliado en envíos rápidos y seguros desde EE.UU. a Panamá.</p>
+        <img src="images/envios.jpg" alt="Imagen de envíos">
+    </section>
+
+    <section id="historia">
+        <h2>Nuestra Historia</h2>
+        <p>En Clickshop Panamá, nos dedicamos a facilitar las compras internacionales y el transporte de paquetes desde EE.UU. a Panamá. Nuestra misión es ofrecer un servicio confiable, rápido y accesible para todos nuestros clientes.</p>
+        <img src="images/historia.jpg" alt="Nuestra historia">
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos:</p>
+        <ul>
+            <li>Recepción de paquetes en EE.UU.</li>
+            <li>Envío aéreo rápido y seguro.</li>
+            <li>Entrega en Panamá con seguimiento en tiempo real.</li>
+        </ul>
+        <img src="images/servicios.jpg" alt="Nuestros servicios">
+    </section>
+
+    <section id="casillero">
+        <h2>Crear Casillero</h2>
+        <form id="formCasillero">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="direccion">Dirección en EE.UU.:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+            <button type="submit">Crear Casillero</button>
+        </form>
+    </section>
+
+    <section id="precios">
+        <h2>Precios</h2>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h3>Básico</h3>
+                <div class="price">$10/kg</div>
+                <ul>
+                    <li>Recepción de paquetes</li>
+                    <li>Envío estándar</li>
+                    <li>Seguimiento básico</li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <div class="price">$15/kg</div>
+                <ul>
+                    <li>Recepción de paquetes</li>
+                    <li>Envío prioritario</li>
+                    <li>Seguimiento en tiempo real</li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Empresarial</h3>
+                <div class="price">$20/kg</div>
+                <ul>
+                    <li>Recepción de paquetes</li>
+                    <li>Envío express</li>
+                    <li>Seguimiento premium</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <p>Visítanos en nuestra oficina principal:</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.847231469033!2d-79.5194856852271!3d8.983693893541047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8e6c1e7e7b5%3A0x4c5f5a5b5b5b5b5b!2sClickshop%20Panam%C3%A1!5e0!3m2!1ses!2spa!4v1629999999999!5m2!1ses!2spa" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Preguntas? Contáctanos:</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Clickshop Panamá. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
